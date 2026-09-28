@@ -1,3 +1,34 @@
+# --- Licensed / local data: never commit ---
+historicaldata/
+yfinancehistoricaldata/
+wrdshistoricaldata/
+yfinance_cache/
+*.csv
+snp500.csv
+snp500_previous.csv
 /demo_backtest_result.png
 /desktop.ini
 /yfinance_cache
+# --- Order sheets / run artifacts ---
+order_sheet_*.csv
+demo_backtest_result.png
+
+# --- Credentials / secrets ---
+.env
+*.pem
+*.key
+config_local.py
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
