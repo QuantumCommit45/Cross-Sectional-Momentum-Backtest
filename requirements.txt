@@ -1,0 +1,12 @@
+# momentum_bot.py (live/paper execution via IBKR)
+ib_async
+lxml
+
+# demo_backtest_yfinance.py (free-data backtest demo)
+yfinance
+matplotlib
+
+# shared by both
+pandas
+numpy
+requests
